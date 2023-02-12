@@ -51,6 +51,6 @@ public class TakeScreenshot {
 	@Test (priority=3)
 	void closeBrowser() {
 		System.out.println("Broser is closed...");
-		
+		driver.quit();
 	}
 }
