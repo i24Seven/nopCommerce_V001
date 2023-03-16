@@ -5,6 +5,7 @@ agent any
         {
         steps{
         echo "Bulding the Project...."
+        echo "This is BUILD Stage..."
         }
     }
     stage("Test")
