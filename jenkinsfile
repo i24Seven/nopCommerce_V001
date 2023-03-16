@@ -13,7 +13,7 @@ agent any
         echo "Testing the Project........"
         }
     }
-    stege("Deploye")
+    stage("Deploye")
       {
       steps{
       echo "Deploying the Project........"
